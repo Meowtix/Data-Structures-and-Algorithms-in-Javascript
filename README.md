@@ -6,16 +6,16 @@ This is the repository of algorithms and data structures implemented in Javascri
 
 Currently implemented data structures:
 
-    - Linked List
+- Linked List
 
 ## Algorithms
 
 Currently implemented algorithms:
 
-- Searching:
+- **Searching**:
     - Linear Search
     - Binary Search
-- Sorting:
+- **Sorting**:
     - Bubble Sort
 
 ## To Do
