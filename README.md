@@ -12,11 +12,11 @@ Currently implemented data structures:
 
 Currently implemented algorithms:
 
-    - **Searching**:
-        - Linear Search
-        - Binary Search
-    - **Sorting**:
-        - Bubble Sort
+- Searching:
+    - Linear Search
+    - Binary Search
+- Sorting:
+    - Bubble Sort
 
 ## To Do
 
