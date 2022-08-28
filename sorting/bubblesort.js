@@ -1,7 +1,7 @@
 /**
  * Sorts the array.
  *
- * @param {array} arrray to sort.
+ * @param {array} array to sort.
  * @param {boolean} tells whether to sort ascending or descending.
  */
 export default function bubbleSort(array, ascending = true) {
