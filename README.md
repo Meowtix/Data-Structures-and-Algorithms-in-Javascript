@@ -17,12 +17,14 @@ Currently implemented algorithms:
     - Binary Search
 - **Sorting**:
     - Bubble Sort
+    - Selection Sort
 
 ## To Do
 
-1. Implement more algorithms and data structures
-2. Add tests
-3. Add documentation for all implementations
+- [ ] Implement more algorithms and data structures
+- [ ] Add tests
+- [ ] Add documentation for all implementations
+- [ ] Explain space and time complexity
 
 ## How to use
 
