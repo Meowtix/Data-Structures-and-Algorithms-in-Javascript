@@ -18,6 +18,7 @@ Currently implemented algorithms:
 - **Sorting**:
     - Bubble Sort
     - Selection Sort
+    - Quick Sort
 
 ## To Do
 
