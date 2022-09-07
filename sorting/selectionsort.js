@@ -1,5 +1,3 @@
-import { swap } from "../helpers/helpers.js";
-
 /**
  * Sorts the array
  * 
