@@ -17,21 +17,21 @@ export default function quickSort(array, low, high) {
  * @param {array} array to sort
  * @param {int} first item of array
  * @param {int} last item of array 
+ * @returns {int} pivot
  */
 function partition (array, low, high) {
-    const pivotValue = array[low]
+    const pivotValue = array[low];
     let swapIndex = low;
     for (let i = low + 1; i <= high; i++) {
       if (pivotValue > array[i]) {
-        swapIndex++
+        swapIndex++;
         if (i !== swapIndex) {
-          ;[array[i], array[swapIndex]] = [array[swapIndex], array[i]]
+          [array[i], array[swapIndex]] = [array[swapIndex], array[i]];
         }
       }
     }
     if (swapIndex !== low) {
-      // Swap pivot into correct place
-      ;[array[swapIndex], array[low]] = [array[low], array[swapIndex]]
+      [array[swapIndex], array[low]] = [array[low], array[swapIndex]];
     }
-    return swapIndex
+    return swapIndex;
 }

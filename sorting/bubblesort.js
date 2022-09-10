@@ -9,15 +9,11 @@ export default function bubbleSort(array, ascending = true) {
         for (let j = i + 1; j < array.length; j++) {
             if (ascending) {
                 if (array[i] > array[j]) {
-                    let temp = array[i];
-                    array[i] = array[j];
-                    array[j] = temp;
+                    [array[i], array[j]] = [array[j], array[i]];
                 }
             } else {
-                if (array[i] < array[j]) {
-                    let temp = array[i];
-                    array[i] = array[j];
-                    array[j] = temp;
+                if (array[i] < array[j]) {                   
+                    [array[i], array[j]] = [array[j], array[i]];
                 }
             }
         }
